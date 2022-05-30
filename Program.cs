@@ -45,6 +45,10 @@ namespace Calculator
             {
                     res = a / b;
             }
+            else
+            {
+                Console.WriteLine("Неизвестный оператор.");
+            }
 
             Console.WriteLine("\nРезультат: {0}", res);
             Console.ReadLine();
