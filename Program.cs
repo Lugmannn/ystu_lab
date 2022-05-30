@@ -49,6 +49,10 @@ namespace Calculator
                 }
                 else Console.WriteLine("На 0 делить нельзя!");
             }
+            else
+            {
+                Console.WriteLine("Неизвестный оператор.");
+            }
 
             Console.WriteLine("\nРезультат: {0}", res);
             Console.ReadLine();
