@@ -43,7 +43,11 @@ namespace Calculator
 
             else if (oper == '/')
             {
+                if (b != 0)
+                {
                     res = a / b;
+                }
+                else Console.WriteLine("На 0 делить нельзя!");
             }
 
             Console.WriteLine("\nРезультат: {0}", res);
